@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import React, { useEffect } from "react";
 import { Roller } from "react-awesome-spinners";
+import Footer from "./footer";
 
 function Albums() {
     const [loading, setLoading] = React.useState(false);
@@ -32,7 +33,7 @@ function Albums() {
                     <Roller />
                 </div>
             )}
-            <div className="container m-5">
+            <div className="container mt-5">
                 <h1 className="mt-3 text-center">Albums</h1>
                 <div className="row">
                     {albums.map(album => (
@@ -47,6 +48,7 @@ function Albums() {
                     ))}
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

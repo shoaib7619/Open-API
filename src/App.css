@@ -5,3 +5,24 @@
   transform: translate(-50%, -50%);
   z-index: 1000; /* Ensure spinner appears above other content */
 }
+.footer {
+  width: 100%;
+  height: 4rem;
+  background: #007BFF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: small;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    position: fixed;
+    margin-top: 0; /* Remove margin top for larger screens */
+  }
+}

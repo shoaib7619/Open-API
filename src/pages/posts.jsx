@@ -5,6 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 import "../App.css"
 import Header from './header';
+import Footer from "./footer";
 
 function Posts() {
     const [loading, setLoading] = React.useState(false);
@@ -35,7 +36,7 @@ function Posts() {
                     <Roller />
                 </div>
             )}
-            <div className="container m-5">
+            <div className="container mt-5">
             <h1 className="mt-3 text-center">Posts</h1>
             <div className="row">
                 {posts.map(post => (
@@ -50,6 +51,7 @@ function Posts() {
                 ))}
             </div>
         </div>
+        <Footer/>
         </>
     )
 }

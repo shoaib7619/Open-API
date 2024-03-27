@@ -2,6 +2,7 @@ import Header from "./header";
 import Table from 'react-bootstrap/Table';
 import React, { useEffect} from "react";
 import { Roller } from "react-awesome-spinners";
+import Footer from "./footer";
 
 function Users() {
     const [loading, setLoading] = React.useState(false);
@@ -76,6 +77,7 @@ function Users() {
                     </tbody>
                 </Table>
             </div>
+            <Footer/>
         </>
     );
 }
