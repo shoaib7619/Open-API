@@ -13,7 +13,7 @@ function Home() {
         <Carousel fade>
           <Carousel.Item>
             <div className="row justify-content-center">
-              <div className="col-md-8 col-lg-6">
+              <div className="col-md-8 col-lg-6 mt-5">
                 <img
                   className="d-block w-100"
                   src={Slider1}
@@ -21,13 +21,10 @@ function Home() {
                 />
               </div>
             </div>
-            <Carousel.Caption>
-              <p>Open API used in it.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <div className="row justify-content-center">
-              <div className="col-md-8 col-lg-6">
+              <div className="col-md-8 col-lg-6 mt-5">
                 <img
                   className="d-block w-100"
                   src={Slider2}
@@ -35,13 +32,10 @@ function Home() {
                 />
               </div>
             </div>
-            <Carousel.Caption>
-              <p>Open API used in it.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <div className="row justify-content-center">
-              <div className="col-md-8 col-lg-6">
+              <div className="col-md-8 col-lg-6 mt-5">
                 <img
                   className="d-block w-100"
                   src={Slider3}
@@ -49,9 +43,6 @@ function Home() {
                 />
               </div>
             </div>
-            <Carousel.Caption>
-              <p>Open API used in it.</p>
-            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </div>
