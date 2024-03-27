@@ -36,7 +36,7 @@ function Posts() {
                     <Roller />
                 </div>
             )}
-            <div className="container mt-5">
+            <div className="container mt-5 mb-5">
             <h1 className="mt-3 text-center">Posts</h1>
             <div className="row">
                 {posts.map(post => (

@@ -14,15 +14,15 @@
   align-items: center;
   justify-content: center;
   font-weight: 300;
-  font-size: small;
   position: fixed;
   bottom: 0;
   left: 0;
+  margin-top: 5rem;
 }
 
 @media (min-width: 768px) {
   .footer {
     position: fixed;
-    margin-top: 0; /* Remove margin top for larger screens */
+    margin-top: 0; 
   }
 }

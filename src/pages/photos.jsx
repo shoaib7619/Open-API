@@ -32,7 +32,7 @@ function Photos() {
                     <Roller />
                 </div>
             )}
-            <div className="container mt-5">
+            <div className="container mt-5 mb-5">
                 <h1 className="mt-3 text-center">Photos</h1>
                 <div className="row">
                     {photos.map(photo => (

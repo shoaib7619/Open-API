@@ -33,7 +33,7 @@ function Todos() {
                     <Roller />
                 </div>
             )}
-            <div className="container mt-5">
+            <div className="container mt-5 mb-5">
                 <h1 className="mt-3 text-center">Todos</h1>
                 <div className="row">
                     {todos.map(todo => (
